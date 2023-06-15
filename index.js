@@ -20,18 +20,6 @@ const invokeAction = async ({ action, id, name, email, phone }) => {
       console.warn("\x1B[31m Unknown action type!");
   }
 };
-// invokeAction({ action: "list" });
-// invokeAction({ action: "get", id: "AeHIrLTr6JkxGE6SN-0Rw" });
-// invokeAction({
-//   action: "add",
-//   name: "Ann Dou",
-//   email: "an.dou@gmail.com",
-//   phone: "(342) 214-34592",
-// });
-// invokeAction({
-//   action: "remove",
-//   id: "epLq9y-wQRKfxL7R-7cFg",
-// });
 
 program
   .option("-a, --action <type>")
